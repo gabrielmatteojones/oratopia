@@ -31,4 +31,12 @@ https://www.comune.udine.it/extension/openpa_bootstrapitalia/design/bootstrapita
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
+<script>
+(function () {
+    if (window.location.hostname === "admin-bibliotecando.netlify.app") {
+        window.location.href = "/admin/";
+    }
+})();
+</script>
+
 </head>
