@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Gabriel Matteo Jones"
+title = "Oratopia"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
